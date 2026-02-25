@@ -1,0 +1,9 @@
+name: Clean
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-clean:
+    uses: gucio1200/gh-workflows/.github/workflows/general_cleanup.yml@main
+    secrets: inherit
